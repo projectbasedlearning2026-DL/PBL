@@ -1,0 +1,385 @@
+source,n_series,variant,model,metric,vs,n_seeds,mean_diff,std_diff,tft_better_in,lower_is_better
+favorita,2000,"epochs=50,stride=4",TFT-Sparse,MAE,LSTM,3,-19.53796005249023,5.59774211611946,3/3,True
+walmart,2000,epochs=50,TFT-Sparse,MAE,LSTM,3,-3438.2195638020835,374.5477896318979,3/3,True
+walmart,3000,epochs=50,TFT-Sparse,MAE,LSTM,3,-2065.275675455729,735.0981624318781,3/3,True
+walmart,5000,epochs=50,TFT-Sparse,MAE,LSTM,3,-2754.3023681640625,1649.9534209002272,3/3,True
+favorita,2000,"epochs=50,stride=4",TFT-Sparse,MAE,Naive,3,-21.619279225667317,1.5084375762946862,3/3,True
+walmart,2000,epochs=50,TFT-Sparse,MAE,Naive,3,-108.12752278645833,79.17744407113467,3/3,True
+walmart,3000,epochs=50,TFT-Sparse,MAE,Naive,3,-136.2254638671875,84.51377988849266,3/3,True
+walmart,5000,epochs=50,TFT-Sparse,MAE,Naive,3,-141.18806966145834,59.48976040137046,3/3,True
+favorita,2000,"epochs=50,stride=4",TFT-Sparse,MAE,XGBoost,3,-16.919884999593098,1.5084375762946862,3/3,True
+walmart,2000,epochs=50,TFT-Sparse,MAE,XGBoost,3,-116.109619140625,50.87307713173387,3/3,True
+walmart,3000,epochs=50,TFT-Sparse,MAE,XGBoost,3,-203.52787272135416,79.95343152196124,3/3,True
+walmart,5000,epochs=50,TFT-Sparse,MAE,XGBoost,3,-266.3667805989583,59.48976040137046,3/3,True
+favorita,2000,"epochs=50,stride=4",TFT-Sparse,MAE,XGBoost-L1,3,-18.986695607503254,1.5084375762946862,3/3,True
+walmart,2000,epochs=50,TFT-Sparse,MAE,XGBoost-L1,3,-50.1710205078125,56.52791712790873,2/3,True
+walmart,3000,epochs=50,TFT-Sparse,MAE,XGBoost-L1,3,-72.89229329427083,86.56595881385353,2/3,True
+walmart,5000,epochs=50,TFT-Sparse,MAE,XGBoost-L1,3,-100.84737141927083,59.48976040137046,3/3,True
+favorita,2000,"epochs=50,stride=4",TFT-Sparse,RMSE,LSTM,3,-55.95964558919271,18.279004144630974,3/3,True
+walmart,2000,epochs=50,TFT-Sparse,RMSE,LSTM,3,-6479.864501953125,606.7078562076562,3/3,True
+walmart,3000,epochs=50,TFT-Sparse,RMSE,LSTM,3,-4160.081136067708,1497.8831692084696,3/3,True
+walmart,5000,epochs=50,TFT-Sparse,RMSE,LSTM,3,-5040.165445963542,2969.3152126012924,3/3,True
+favorita,2000,"epochs=50,stride=4",TFT-Sparse,RMSE,Naive,3,-90.04420979817702,3.741092403231515,3/3,True
+walmart,2000,epochs=50,TFT-Sparse,RMSE,Naive,3,-224.70694986979166,193.07539754015784,3/3,True
+walmart,3000,epochs=50,TFT-Sparse,RMSE,Naive,3,-317.6105143229167,145.7840543522872,3/3,True
+walmart,5000,epochs=50,TFT-Sparse,RMSE,Naive,3,-244.6796875,86.43521778620276,3/3,True
+favorita,2000,"epochs=50,stride=4",TFT-Sparse,RMSE,XGBoost,3,-31.87376912434893,3.741092403231515,3/3,True
+walmart,2000,epochs=50,TFT-Sparse,RMSE,XGBoost,3,-325.1175130208333,195.05804509673044,3/3,True
+walmart,3000,epochs=50,TFT-Sparse,RMSE,XGBoost,3,-462.7274576822917,173.4309060586223,3/3,True
+walmart,5000,epochs=50,TFT-Sparse,RMSE,XGBoost,3,-578.958740234375,86.43521778620276,3/3,True
+favorita,2000,"epochs=50,stride=4",TFT-Sparse,RMSE,XGBoost-L1,3,-52.960103352864586,3.741092403231515,3/3,True
+walmart,2000,epochs=50,TFT-Sparse,RMSE,XGBoost-L1,3,40.11767578125,180.94722178156667,1/3,True
+walmart,3000,epochs=50,TFT-Sparse,RMSE,XGBoost-L1,3,-17.810221354166668,185.05588833844214,2/3,True
+walmart,5000,epochs=50,TFT-Sparse,RMSE,XGBoost-L1,3,-38.39306640625,86.43521778620276,2/3,True
+favorita,2000,"epochs=50,stride=4",TFT-Sparse,WAPE,LSTM,3,-0.041179972390333795,0.011798309368162703,3/3,True
+walmart,2000,epochs=50,TFT-Sparse,WAPE,LSTM,3,-0.24912113199631378,0.029712072408194873,3/3,True
+walmart,3000,epochs=50,TFT-Sparse,WAPE,LSTM,3,-0.15004092951615652,0.05200503627043246,3/3,True
+walmart,5000,epochs=50,TFT-Sparse,WAPE,LSTM,3,-0.20108077426751458,0.1204566037658587,3/3,True
+favorita,2000,"epochs=50,stride=4",TFT-Sparse,WAPE,Naive,3,-0.045566750069459316,0.0031793196223200365,3/3,True
+walmart,2000,epochs=50,TFT-Sparse,WAPE,Naive,3,-0.007763964434464772,0.005620541127277924,3/3,True
+walmart,3000,epochs=50,TFT-Sparse,WAPE,Naive,3,-0.009951891998449999,0.0062039781961469205,3/3,True
+walmart,5000,epochs=50,TFT-Sparse,WAPE,Naive,3,-0.01030758519967393,0.004343111097344233,3/3,True
+favorita,2000,"epochs=50,stride=4",TFT-Sparse,WAPE,XGBoost,3,-0.0356618737181028,0.0031793196223200365,3/3,True
+walmart,2000,epochs=50,TFT-Sparse,WAPE,XGBoost,3,-0.008362737794717167,0.0035299996606077064,3/3,True
+walmart,3000,epochs=50,TFT-Sparse,WAPE,XGBoost,3,-0.014843985438346835,0.005905338444957682,3/3,True
+walmart,5000,epochs=50,TFT-Sparse,WAPE,XGBoost,3,-0.01944638540347413,0.004343111097344232,3/3,True
+favorita,2000,"epochs=50,stride=4",TFT-Sparse,WAPE,XGBoost-L1,3,-0.0400180791815122,0.0031793196223200365,3/3,True
+walmart,2000,epochs=50,TFT-Sparse,WAPE,XGBoost-L1,3,-0.003582157194614438,0.004022593476852006,2/3,True
+walmart,3000,epochs=50,TFT-Sparse,WAPE,XGBoost-L1,3,-0.005345985293388404,0.006313818772201351,2/3,True
+walmart,5000,epochs=50,TFT-Sparse,WAPE,XGBoost-L1,3,-0.007362467547257741,0.004343111097344233,3/3,True
+favorita,2000,"epochs=50,stride=4",TFT-Sparse,MASE,LSTM,3,-0.2585468093554178,0.0740751636721405,3/3,True
+walmart,2000,epochs=50,TFT-Sparse,MASE,LSTM,3,-2.007169008255005,0.25127966600524787,3/3,True
+walmart,3000,epochs=50,TFT-Sparse,MASE,LSTM,3,-1.2114418148994446,0.43195156721586264,3/3,True
+walmart,5000,epochs=50,TFT-Sparse,MASE,LSTM,3,-1.6220372319221499,0.9716747289921184,3/3,True
+favorita,2000,"epochs=50,stride=4",TFT-Sparse,MASE,Naive,3,-0.2860889236132304,0.01996121528288491,3/3,True
+walmart,2000,epochs=50,TFT-Sparse,MASE,Naive,3,-0.06253614028294881,0.04550349199701262,3/3,True
+walmart,3000,epochs=50,TFT-Sparse,MASE,Naive,3,-0.07985458771387736,0.04943876022394235,3/3,True
+walmart,5000,epochs=50,TFT-Sparse,MASE,Naive,3,-0.08314708868662517,0.03503415318821573,3/3,True
+favorita,2000,"epochs=50,stride=4",TFT-Sparse,MASE,XGBoost,3,-0.22390160957972208,0.01996121528288491,3/3,True
+walmart,2000,epochs=50,TFT-Sparse,MASE,XGBoost,3,-0.06739209095637004,0.028775820178288673,3/3,True
+walmart,3000,epochs=50,TFT-Sparse,MASE,XGBoost,3,-0.1193073987960815,0.046648993927438244,3/3,True
+walmart,5000,epochs=50,TFT-Sparse,MASE,XGBoost,3,-0.15686617294947305,0.03503415318821573,3/3,True
+favorita,2000,"epochs=50,stride=4",TFT-Sparse,MASE,XGBoost-L1,3,-0.2512519160906474,0.01996121528288491,3/3,True
+walmart,2000,epochs=50,TFT-Sparse,MASE,XGBoost-L1,3,-0.028912365436553955,0.03269279752360615,2/3,True
+walmart,3000,epochs=50,TFT-Sparse,MASE,XGBoost-L1,3,-0.04272902011871338,0.05071705586062162,2/3,True
+walmart,5000,epochs=50,TFT-Sparse,MASE,XGBoost-L1,3,-0.05939004818598429,0.03503415318821573,3/3,True
+favorita,2000,"epochs=50,stride=4",TFT-Sparse,Bias (sum pred/sum actual),LSTM,3,0.00939061244328813,0.02245242269868508,,False
+walmart,2000,epochs=50,TFT-Sparse,Bias (sum pred/sum actual),LSTM,3,0.2929091254870097,0.02718825453243141,,False
+walmart,3000,epochs=50,TFT-Sparse,Bias (sum pred/sum actual),LSTM,3,0.15492761135101318,0.06314345197347206,,False
+walmart,5000,epochs=50,TFT-Sparse,Bias (sum pred/sum actual),LSTM,3,0.22476498285929358,0.1433110372239418,,False
+favorita,2000,"epochs=50,stride=4",TFT-Sparse,Bias (sum pred/sum actual),Naive,3,-0.017543752988179524,0.015717687984671956,,False
+walmart,2000,epochs=50,TFT-Sparse,Bias (sum pred/sum actual),Naive,3,-0.014481405417124282,0.009055804615650007,,False
+walmart,3000,epochs=50,TFT-Sparse,Bias (sum pred/sum actual),Naive,3,-0.020643711090087852,0.016632480321254393,,False
+walmart,5000,epochs=50,TFT-Sparse,Bias (sum pred/sum actual),Naive,3,-0.007629593213399288,0.004769782569240485,,False
+favorita,2000,"epochs=50,stride=4",TFT-Sparse,Bias (sum pred/sum actual),XGBoost,3,-0.0010018547375995797,0.015717687984671956,,False
+walmart,2000,epochs=50,TFT-Sparse,Bias (sum pred/sum actual),XGBoost,3,-0.04611005385716745,0.012901444316190183,,False
+walmart,3000,epochs=50,TFT-Sparse,Bias (sum pred/sum actual),XGBoost,3,-0.05429832140604655,0.018582341178981235,,False
+walmart,5000,epochs=50,TFT-Sparse,Bias (sum pred/sum actual),XGBoost,3,-0.04453374942143762,0.004769782569240485,,False
+favorita,2000,"epochs=50,stride=4",TFT-Sparse,Bias (sum pred/sum actual),XGBoost-L1,3,0.010344485441843668,0.015717687984671956,,False
+walmart,2000,epochs=50,TFT-Sparse,Bias (sum pred/sum actual),XGBoost-L1,3,-0.036366879940032924,0.010303558472787189,,False
+walmart,3000,epochs=50,TFT-Sparse,Bias (sum pred/sum actual),XGBoost-L1,3,-0.0412975549697876,0.018161962002363367,,False
+walmart,5000,epochs=50,TFT-Sparse,Bias (sum pred/sum actual),XGBoost-L1,3,-0.028908511002858517,0.004769782569240485,,False
+favorita,2000,"epochs=50,stride=4",TFT-Sparse,WRMSSE,LSTM,3,-0.15739012478611128,0.04758365151418841,3/3,True
+walmart,2000,epochs=50,TFT-Sparse,WRMSSE,LSTM,3,-2.008543023582425,0.20212910789437208,3/3,True
+walmart,3000,epochs=50,TFT-Sparse,WRMSSE,LSTM,3,-1.0885938948756115,0.34296105577044034,3/3,True
+walmart,5000,epochs=50,TFT-Sparse,WRMSSE,LSTM,3,-1.6238107729834041,0.9820495705165698,3/3,True
+favorita,2000,"epochs=50,stride=4",TFT-Sparse,WRMSSE,Naive,3,-0.21325216310023998,0.012307980838530618,3/3,True
+walmart,2000,epochs=50,TFT-Sparse,WRMSSE,Naive,3,0.04515006912949282,0.062157603253048886,0/3,True
+walmart,3000,epochs=50,TFT-Sparse,WRMSSE,Naive,3,0.053138909857175454,0.0903917393853794,1/3,True
+walmart,5000,epochs=50,TFT-Sparse,WRMSSE,Naive,3,0.0029906980746246536,0.01010564214276621,1/3,True
+favorita,2000,"epochs=50,stride=4",TFT-Sparse,WRMSSE,XGBoost,3,-0.09255025614396163,0.012307980838530616,3/3,True
+walmart,2000,epochs=50,TFT-Sparse,WRMSSE,XGBoost,3,0.06929641377566888,0.05246187067616733,0/3,True
+walmart,3000,epochs=50,TFT-Sparse,WRMSSE,XGBoost,3,0.05378826127906209,0.0854321996657252,1/3,True
+walmart,5000,epochs=50,TFT-Sparse,WRMSSE,XGBoost,3,-0.025465445106166162,0.01010564214276621,3/3,True
+favorita,2000,"epochs=50,stride=4",TFT-Sparse,WRMSSE,XGBoost-L1,3,-0.14949756122482552,0.012307980838530618,3/3,True
+walmart,2000,epochs=50,TFT-Sparse,WRMSSE,XGBoost-L1,3,0.09689491135519807,0.051664407231617,0/3,True
+walmart,3000,epochs=50,TFT-Sparse,WRMSSE,XGBoost-L1,3,0.10448664283683508,0.09276484093440614,0/3,True
+walmart,5000,epochs=50,TFT-Sparse,WRMSSE,XGBoost-L1,3,0.04755712257766137,0.01010564214276621,0/3,True
+favorita,2000,"epochs=50,stride=4",TFT-Sparse,Pinball loss (P10/50/90),LSTM,3,-6.452400553616847,1.6134984584586531,3/3,True
+walmart,2000,epochs=50,TFT-Sparse,Pinball loss (P10/50/90),LSTM,3,-1111.3160838338274,159.31021026130685,3/3,True
+walmart,3000,epochs=50,TFT-Sparse,Pinball loss (P10/50/90),LSTM,3,-647.7769288004278,202.97577650462782,3/3,True
+walmart,5000,epochs=50,TFT-Sparse,Pinball loss (P10/50/90),LSTM,3,-847.6063195739649,438.82319354013964,3/3,True
+favorita,2000,"epochs=50,stride=4",TFT-Sparse,Pinball loss (P10/50/90),Naive,3,-8.068679673299545,0.3178674029483695,3/3,True
+walmart,2000,epochs=50,TFT-Sparse,Pinball loss (P10/50/90),Naive,3,-37.08461624248997,28.3081933108807,3/3,True
+walmart,3000,epochs=50,TFT-Sparse,Pinball loss (P10/50/90),Naive,3,-47.86287410862972,26.181022883196402,3/3,True
+walmart,5000,epochs=50,TFT-Sparse,Pinball loss (P10/50/90),Naive,3,-47.32960943129649,17.018075649949694,3/3,True
+favorita,2000,"epochs=50,stride=4",TFT-Sparse,Pinball loss (P10/50/90),XGBoost,3,-5.524765271527652,0.3178674029483695,3/3,True
+walmart,2000,epochs=50,TFT-Sparse,Pinball loss (P10/50/90),XGBoost,3,-49.923759557015636,23.96614493302748,3/3,True
+walmart,3000,epochs=50,TFT-Sparse,Pinball loss (P10/50/90),XGBoost,3,-81.03831093974891,24.65598683238948,3/3,True
+walmart,5000,epochs=50,TFT-Sparse,Pinball loss (P10/50/90),XGBoost,3,-96.23873463918056,17.018075649949694,3/3,True
+favorita,2000,"epochs=50,stride=4",TFT-Sparse,Pinball loss (P10/50/90),XGBoost-L1,3,-6.645523655630573,0.3178674029483695,3/3,True
+walmart,2000,epochs=50,TFT-Sparse,Pinball loss (P10/50/90),XGBoost-L1,3,-36.32194787196486,22.456282228608845,3/3,True
+walmart,3000,epochs=50,TFT-Sparse,Pinball loss (P10/50/90),XGBoost-L1,3,-47.25576111319666,27.34860990760326,3/3,True
+walmart,5000,epochs=50,TFT-Sparse,Pinball loss (P10/50/90),XGBoost-L1,3,-54.13443382453943,17.018075649949694,3/3,True
+favorita,2000,"epochs=50,stride=4",TFT-Sparse+CP,Pinball loss (P10/50/90),LSTM,3,-6.478331363156687,1.6167283655032565,3/3,True
+walmart,2000,epochs=50,TFT-Sparse+CP,Pinball loss (P10/50/90),LSTM,3,-1112.0020445173016,160.14889270400292,3/3,True
+walmart,3000,epochs=50,TFT-Sparse+CP,Pinball loss (P10/50/90),LSTM,3,-648.3054604375558,202.13341379017513,3/3,True
+walmart,5000,epochs=50,TFT-Sparse+CP,Pinball loss (P10/50/90),LSTM,3,-847.824838045662,438.7340912061771,3/3,True
+favorita,2000,"epochs=50,stride=4",TFT-Sparse+CP,Pinball loss (P10/50/90),Naive,3,-8.094610482839384,0.3166902231005094,3/3,True
+walmart,2000,epochs=50,TFT-Sparse+CP,Pinball loss (P10/50/90),Naive,3,-37.7705769259642,27.0128856570688,3/3,True
+walmart,3000,epochs=50,TFT-Sparse+CP,Pinball loss (P10/50/90),Naive,3,-48.391405745757844,26.813986789838502,3/3,True
+walmart,5000,epochs=50,TFT-Sparse+CP,Pinball loss (P10/50/90),Naive,3,-47.54812790299358,17.27478257341984,3/3,True
+favorita,2000,"epochs=50,stride=4",TFT-Sparse+CP,Pinball loss (P10/50/90),TFT-Sparse,3,-0.0259308095398391,0.03182371763840034,3/3,True
+walmart,2000,epochs=50,TFT-Sparse+CP,Pinball loss (P10/50/90),TFT-Sparse,3,-0.6859606834742257,1.328159989675779,2/3,True
+walmart,3000,epochs=50,TFT-Sparse+CP,Pinball loss (P10/50/90),TFT-Sparse,3,-0.5285316371281207,0.9154436366365797,2/3,True
+walmart,5000,epochs=50,TFT-Sparse+CP,Pinball loss (P10/50/90),TFT-Sparse,3,-0.2185184716970904,0.30298317057883545,3/3,True
+favorita,2000,"epochs=50,stride=4",TFT-Sparse+CP,Pinball loss (P10/50/90),XGBoost,3,-5.550696081067492,0.3166902231005094,3/3,True
+walmart,2000,epochs=50,TFT-Sparse+CP,Pinball loss (P10/50/90),XGBoost,3,-50.60972024048986,22.711649247595368,3/3,True
+walmart,3000,epochs=50,TFT-Sparse+CP,Pinball loss (P10/50/90),XGBoost,3,-81.56684257687704,25.405004365137014,3/3,True
+walmart,5000,epochs=50,TFT-Sparse+CP,Pinball loss (P10/50/90),XGBoost,3,-96.45725311087766,17.27478257341984,3/3,True
+favorita,2000,"epochs=50,stride=4",TFT-Sparse+CP,Pinball loss (P10/50/90),XGBoost-L1,3,-6.671454465170412,0.3166902231005094,3/3,True
+walmart,2000,epochs=50,TFT-Sparse+CP,Pinball loss (P10/50/90),XGBoost-L1,3,-37.00790855543909,21.233341014035002,3/3,True
+walmart,3000,epochs=50,TFT-Sparse+CP,Pinball loss (P10/50/90),XGBoost-L1,3,-47.78429275032479,27.93270781386001,3/3,True
+walmart,5000,epochs=50,TFT-Sparse+CP,Pinball loss (P10/50/90),XGBoost-L1,3,-54.352952296236516,17.27478257341984,3/3,True
+favorita,2000,"epochs=50,stride=4",TFT-Sparse,P10-P90 coverage (nominal 0.80),LSTM,3,-0.03730008417508416,0.005644539124370964,,False
+walmart,2000,epochs=50,TFT-Sparse,P10-P90 coverage (nominal 0.80),LSTM,3,0.2495625,0.019395553614166276,,False
+walmart,3000,epochs=50,TFT-Sparse,P10-P90 coverage (nominal 0.80),LSTM,3,0.14654166666666665,0.09649056336991949,,False
+walmart,5000,epochs=50,TFT-Sparse,P10-P90 coverage (nominal 0.80),LSTM,3,0.19087110977684382,0.07962027462168784,,False
+favorita,2000,"epochs=50,stride=4",TFT-Sparse,P10-P90 coverage (nominal 0.80),Naive,3,-0.04272470071081184,0.005052341581253377,,False
+walmart,2000,epochs=50,TFT-Sparse,P10-P90 coverage (nominal 0.80),Naive,3,0.010645833333333318,0.03898443866895271,,False
+walmart,3000,epochs=50,TFT-Sparse,P10-P90 coverage (nominal 0.80),Naive,3,0.00945833333333331,0.01925852084143538,,False
+walmart,5000,epochs=50,TFT-Sparse,P10-P90 coverage (nominal 0.80),Naive,3,0.008305814069848908,0.0047381774666349985,,False
+favorita,2000,"epochs=50,stride=4",TFT-Sparse,P10-P90 coverage (nominal 0.80),XGBoost,3,-0.044390665918443685,0.005052341581253377,,False
+walmart,2000,epochs=50,TFT-Sparse,P10-P90 coverage (nominal 0.80),XGBoost,3,0.0021250000000000067,0.036272137636897045,,False
+walmart,3000,epochs=50,TFT-Sparse,P10-P90 coverage (nominal 0.80),XGBoost,3,-0.0012083333333333668,0.029055024426842994,,False
+walmart,5000,epochs=50,TFT-Sparse,P10-P90 coverage (nominal 0.80),XGBoost,3,0.005716501551085755,0.0047381774666349985,,False
+favorita,2000,"epochs=50,stride=4",TFT-Sparse,P10-P90 coverage (nominal 0.80),XGBoost-L1,3,-0.03479821361765804,0.005052341581253377,,False
+walmart,2000,epochs=50,TFT-Sparse,P10-P90 coverage (nominal 0.80),XGBoost-L1,3,0.04735416666666662,0.03789811244749976,,False
+walmart,3000,epochs=50,TFT-Sparse,P10-P90 coverage (nominal 0.80),XGBoost-L1,3,0.046611111111111124,0.030072260581497378,,False
+walmart,5000,epochs=50,TFT-Sparse,P10-P90 coverage (nominal 0.80),XGBoost-L1,3,0.05044781346942865,0.0047381774666349985,,False
+favorita,2000,"epochs=50,stride=4",TFT-Sparse+CP,P10-P90 coverage (nominal 0.80),LSTM,3,-0.03174102132435467,0.00303695107403766,,False
+walmart,2000,epochs=50,TFT-Sparse+CP,P10-P90 coverage (nominal 0.80),LSTM,3,0.25608333333333333,0.024053678036494375,,False
+walmart,3000,epochs=50,TFT-Sparse+CP,P10-P90 coverage (nominal 0.80),LSTM,3,0.1568333333333333,0.07866507766756763,,False
+walmart,5000,epochs=50,TFT-Sparse+CP,P10-P90 coverage (nominal 0.80),LSTM,3,0.20416791754227961,0.08251070145756409,,False
+favorita,2000,"epochs=50,stride=4",TFT-Sparse+CP,P10-P90 coverage (nominal 0.80),Naive,3,-0.03716563786008235,0.0018300498015443203,,False
+walmart,2000,epochs=50,TFT-Sparse+CP,P10-P90 coverage (nominal 0.80),Naive,3,0.017166666666666663,0.030950712666808367,,False
+walmart,3000,epochs=50,TFT-Sparse+CP,P10-P90 coverage (nominal 0.80),Naive,3,0.019749999999999972,0.002352967983915963,,False
+walmart,5000,epochs=50,TFT-Sparse+CP,P10-P90 coverage (nominal 0.80),Naive,3,0.02160262183528472,0.01504687940476518,,False
+favorita,2000,"epochs=50,stride=4",TFT-Sparse+CP,P10-P90 coverage (nominal 0.80),TFT-Sparse,3,0.00555906285072949,0.004513522338496447,,False
+walmart,2000,epochs=50,TFT-Sparse+CP,P10-P90 coverage (nominal 0.80),TFT-Sparse,3,0.006520833333333346,0.008037104707749801,,False
+walmart,3000,epochs=50,TFT-Sparse+CP,P10-P90 coverage (nominal 0.80),TFT-Sparse,3,0.010291666666666663,0.017825689561229686,,False
+walmart,5000,epochs=50,TFT-Sparse+CP,P10-P90 coverage (nominal 0.80),TFT-Sparse,3,0.013296807765435811,0.014747123224096822,,False
+favorita,2000,"epochs=50,stride=4",TFT-Sparse+CP,P10-P90 coverage (nominal 0.80),XGBoost,3,-0.038831603067714195,0.0018300498015443203,,False
+walmart,2000,epochs=50,TFT-Sparse+CP,P10-P90 coverage (nominal 0.80),XGBoost,3,0.008645833333333353,0.02827697366380167,,False
+walmart,3000,epochs=50,TFT-Sparse+CP,P10-P90 coverage (nominal 0.80),XGBoost,3,0.009083333333333296,0.01129766138533889,,False
+walmart,5000,epochs=50,TFT-Sparse+CP,P10-P90 coverage (nominal 0.80),XGBoost,3,0.019013309316521565,0.01504687940476518,,False
+favorita,2000,"epochs=50,stride=4",TFT-Sparse+CP,P10-P90 coverage (nominal 0.80),XGBoost-L1,3,-0.02923915076692855,0.00183004980154432,,False
+walmart,2000,epochs=50,TFT-Sparse+CP,P10-P90 coverage (nominal 0.80),XGBoost-L1,3,0.05387499999999997,0.02986421091791979,,False
+walmart,3000,epochs=50,TFT-Sparse+CP,P10-P90 coverage (nominal 0.80),XGBoost-L1,3,0.05690277777777778,0.012284343392814796,,False
+walmart,5000,epochs=50,TFT-Sparse+CP,P10-P90 coverage (nominal 0.80),XGBoost-L1,3,0.06374462123486446,0.01504687940476518,,False
+favorita,2000,"epochs=50,stride=4",TFT-Sparse,Inventory cost,LSTM,3,3853.7673432904216,5135.116216453923,1/3,True
+walmart,2000,epochs=50,TFT-Sparse,Inventory cost,LSTM,3,-135421.95348432392,3468.0888655919443,3/3,True
+walmart,3000,epochs=50,TFT-Sparse,Inventory cost,LSTM,3,-149684.18363773669,66292.74816929009,3/3,True
+walmart,5000,epochs=50,TFT-Sparse,Inventory cost,LSTM,3,-198086.41005709962,128427.19725634767,3/3,True
+favorita,2000,"epochs=50,stride=4",TFT-Sparse,Inventory cost,Naive,3,11797.581366811079,5785.945964859253,0/3,True
+walmart,2000,epochs=50,TFT-Sparse,Inventory cost,Naive,3,23239.84323012437,31028.222351319666,1/3,True
+walmart,3000,epochs=50,TFT-Sparse,Inventory cost,Naive,3,2817.112552007893,11315.91332569519,1/3,True
+walmart,5000,epochs=50,TFT-Sparse,Inventory cost,Naive,3,38495.642543624235,39514.664886325816,1/3,True
+favorita,2000,"epochs=50,stride=4",TFT-Sparse,Inventory cost,XGBoost,3,-663.7723773597827,5785.945964859253,1/3,True
+walmart,2000,epochs=50,TFT-Sparse,Inventory cost,XGBoost,3,11055.839733082568,30738.023683549043,1/3,True
+walmart,3000,epochs=50,TFT-Sparse,Inventory cost,XGBoost,3,-61242.191687808685,7287.0714360397205,3/3,True
+walmart,5000,epochs=50,TFT-Sparse,Inventory cost,XGBoost,3,-32697.0393484567,39514.664886325816,2/3,True
+favorita,2000,"epochs=50,stride=4",TFT-Sparse,Inventory cost,XGBoost-L1,3,-4262.957861913805,5785.945964859253,3/3,True
+walmart,2000,epochs=50,TFT-Sparse,Inventory cost,XGBoost-L1,3,-43737.797096963586,26057.52846557236,3/3,True
+walmart,3000,epochs=50,TFT-Sparse,Inventory cost,XGBoost-L1,3,-93325.9923058063,21646.501238733017,3/3,True
+walmart,5000,epochs=50,TFT-Sparse,Inventory cost,XGBoost-L1,3,-70203.39182594923,39514.664886325816,3/3,True
+favorita,2000,"epochs=50,stride=4",TFT-Sparse+CP,Inventory cost,LSTM,3,3666.6412478938487,5020.526135113011,1/3,True
+walmart,2000,epochs=50,TFT-Sparse+CP,Inventory cost,LSTM,3,-135809.60635501004,3504.046561179686,3/3,True
+walmart,3000,epochs=50,TFT-Sparse+CP,Inventory cost,LSTM,3,-149683.89470351711,66293.22491370916,3/3,True
+walmart,5000,epochs=50,TFT-Sparse+CP,Inventory cost,LSTM,3,-197932.98978300253,128236.13114776646,3/3,True
+favorita,2000,"epochs=50,stride=4",TFT-Sparse+CP,Inventory cost,Naive,3,11610.455271414505,5682.0123109186525,0/3,True
+walmart,2000,epochs=50,TFT-Sparse+CP,Inventory cost,Naive,3,22852.190359438264,31218.727924098705,1/3,True
+walmart,3000,epochs=50,TFT-Sparse+CP,Inventory cost,Naive,3,2817.401486227444,11316.270849401433,1/3,True
+walmart,5000,epochs=50,TFT-Sparse+CP,Inventory cost,Naive,3,38649.062817721315,39345.020461717366,1/3,True
+favorita,2000,"epochs=50,stride=4",TFT-Sparse+CP,Inventory cost,TFT-Sparse,3,-187.12609539657328,210.627561555323,3/3,True
+walmart,2000,epochs=50,TFT-Sparse+CP,Inventory cost,TFT-Sparse,3,-387.6528706861039,636.2379831364032,2/3,True
+walmart,3000,epochs=50,TFT-Sparse+CP,Inventory cost,TFT-Sparse,3,0.28893421955096227,0.5004487483075274,0/3,True
+walmart,5000,epochs=50,TFT-Sparse+CP,Inventory cost,TFT-Sparse,3,153.4202740970844,194.63437393591718,0/3,True
+favorita,2000,"epochs=50,stride=4",TFT-Sparse+CP,Inventory cost,XGBoost,3,-850.898472756356,5682.0123109186525,1/3,True
+walmart,2000,epochs=50,TFT-Sparse+CP,Inventory cost,XGBoost,3,10668.186862396464,30760.701533926127,1/3,True
+walmart,3000,epochs=50,TFT-Sparse+CP,Inventory cost,XGBoost,3,-61241.90275358913,7287.527725137693,3/3,True
+walmart,5000,epochs=50,TFT-Sparse+CP,Inventory cost,XGBoost,3,-32543.619074359613,39345.020461717366,2/3,True
+favorita,2000,"epochs=50,stride=4",TFT-Sparse+CP,Inventory cost,XGBoost-L1,3,-4450.083957310378,5682.0123109186525,3/3,True
+walmart,2000,epochs=50,TFT-Sparse+CP,Inventory cost,XGBoost-L1,3,-44125.449967649685,26280.453054143207,3/3,True
+walmart,3000,epochs=50,TFT-Sparse+CP,Inventory cost,XGBoost-L1,3,-93325.70337158674,21646.82064446008,3/3,True
+walmart,5000,epochs=50,TFT-Sparse+CP,Inventory cost,XGBoost-L1,3,-70049.97155185214,39345.020461717366,3/3,True
+favorita,2000,"epochs=50,stride=4",TFT-Sparse,Service level (in-stock),LSTM,3,-0.006774511414025223,0.0012096337545292248,,False
+walmart,2000,epochs=50,TFT-Sparse,Service level (in-stock),LSTM,3,0.011328910237747994,0.001036087676194766,,False
+walmart,3000,epochs=50,TFT-Sparse,Service level (in-stock),LSTM,3,0.005811549567779739,0.0037765395585305497,,False
+walmart,5000,epochs=50,TFT-Sparse,Service level (in-stock),LSTM,3,0.007627571842720042,0.005090385221792839,,False
+favorita,2000,"epochs=50,stride=4",TFT-Sparse,Service level (in-stock),Naive,3,-0.005994416160288914,0.0006320744095229907,,False
+walmart,2000,epochs=50,TFT-Sparse,Service level (in-stock),Naive,3,-0.0025262522803326526,0.001511683909304125,,False
+walmart,3000,epochs=50,TFT-Sparse,Service level (in-stock),Naive,3,-0.0015921144596761083,0.00140407366268852,,False
+walmart,5000,epochs=50,TFT-Sparse,Service level (in-stock),Naive,3,-0.0022516817247881793,0.001562294360818205,,False
+favorita,2000,"epochs=50,stride=4",TFT-Sparse,Service level (in-stock),XGBoost,3,-0.0032435539497453667,0.0006320744095229907,,False
+walmart,2000,epochs=50,TFT-Sparse,Service level (in-stock),XGBoost,3,-0.0001872838383401021,0.0012593006221763038,,False
+walmart,3000,epochs=50,TFT-Sparse,Service level (in-stock),XGBoost,3,0.0006877829029488339,0.0011453461836537402,,False
+walmart,5000,epochs=50,TFT-Sparse,Service level (in-stock),XGBoost,3,-0.0007317965605561083,0.001562294360818205,,False
+favorita,2000,"epochs=50,stride=4",TFT-Sparse,Service level (in-stock),XGBoost-L1,3,-0.009073739530300514,0.0006320744095229907,,False
+walmart,2000,epochs=50,TFT-Sparse,Service level (in-stock),XGBoost-L1,3,-0.0005139880709197353,0.0012725128961333923,,False
+walmart,3000,epochs=50,TFT-Sparse,Service level (in-stock),XGBoost-L1,3,0.0006252966206384084,0.0011262096888899008,,False
+walmart,5000,epochs=50,TFT-Sparse,Service level (in-stock),XGBoost-L1,3,0.00019702215091887965,0.001562294360818205,,False
+favorita,2000,"epochs=50,stride=4",TFT-Sparse+CP,Service level (in-stock),LSTM,3,-0.00680188317731419,0.0011673182589663521,,False
+walmart,2000,epochs=50,TFT-Sparse+CP,Service level (in-stock),LSTM,3,0.011422543935358465,0.0010064727227511918,,False
+walmart,3000,epochs=50,TFT-Sparse+CP,Service level (in-stock),LSTM,3,0.005811549567779739,0.0037765395585305497,,False
+walmart,5000,epochs=50,TFT-Sparse+CP,Service level (in-stock),LSTM,3,0.0076557178642799135,0.005122498599074606,,False
+favorita,2000,"epochs=50,stride=4",TFT-Sparse+CP,Service level (in-stock),Naive,3,-0.0060217879235778815,0.0005982781243332694,,False
+walmart,2000,epochs=50,TFT-Sparse+CP,Service level (in-stock),Naive,3,-0.0024326185827221827,0.0014544277862040124,,False
+walmart,3000,epochs=50,TFT-Sparse+CP,Service level (in-stock),Naive,3,-0.0015921144596761083,0.00140407366268852,,False
+walmart,5000,epochs=50,TFT-Sparse+CP,Service level (in-stock),Naive,3,-0.0022235357032283076,0.0015206667971785794,,False
+favorita,2000,"epochs=50,stride=4",TFT-Sparse+CP,Service level (in-stock),TFT-Sparse,3,-2.7371763288967326e-05,0.00010332614051684938,,False
+walmart,2000,epochs=50,TFT-Sparse+CP,Service level (in-stock),TFT-Sparse,3,9.363369761046976e-05,8.109012051630311e-05,,False
+walmart,3000,epochs=50,TFT-Sparse+CP,Service level (in-stock),TFT-Sparse,3,0.0,0.0,,False
+walmart,5000,epochs=50,TFT-Sparse+CP,Service level (in-stock),TFT-Sparse,3,2.814602155987167e-05,4.8750339372626754e-05,,False
+favorita,2000,"epochs=50,stride=4",TFT-Sparse+CP,Service level (in-stock),XGBoost,3,-0.003270925713034334,0.0005982781243332694,,False
+walmart,2000,epochs=50,TFT-Sparse+CP,Service level (in-stock),XGBoost,3,-9.365014072963233e-05,0.0011783320525234156,,False
+walmart,3000,epochs=50,TFT-Sparse+CP,Service level (in-stock),XGBoost,3,0.0006877829029488339,0.0011453461836537402,,False
+walmart,5000,epochs=50,TFT-Sparse+CP,Service level (in-stock),XGBoost,3,-0.0007036505389962366,0.0015206667971785794,,False
+favorita,2000,"epochs=50,stride=4",TFT-Sparse+CP,Service level (in-stock),XGBoost-L1,3,-0.009101111293589481,0.0005982781243332694,,False
+walmart,2000,epochs=50,TFT-Sparse+CP,Service level (in-stock),XGBoost-L1,3,-0.00042035437330926556,0.00119819428601,,False
+walmart,3000,epochs=50,TFT-Sparse+CP,Service level (in-stock),XGBoost-L1,3,0.0006252966206384084,0.0011262096888899008,,False
+walmart,5000,epochs=50,TFT-Sparse+CP,Service level (in-stock),XGBoost-L1,3,0.00022516817247875132,0.0015206667971785794,,False
+favorita,2000,"epochs=50,stride=4",TFT-Sparse,Fill rate,LSTM,3,-0.001524227746818707,0.0012544450172099562,,False
+walmart,2000,epochs=50,TFT-Sparse,Fill rate,LSTM,3,0.0027529945561728386,4.30783752654454e-05,,False
+walmart,3000,epochs=50,TFT-Sparse,Fill rate,LSTM,3,0.0019501732173347053,0.000985711001389121,,False
+walmart,5000,epochs=50,TFT-Sparse,Fill rate,LSTM,3,0.002357702590162473,0.001628716038327977,,False
+favorita,2000,"epochs=50,stride=4",TFT-Sparse,Fill rate,Naive,3,-0.00311129761212936,0.0011929545201339255,,False
+walmart,2000,epochs=50,TFT-Sparse,Fill rate,Naive,3,-0.0005833521893455392,0.0006186305351898702,,False
+walmart,3000,epochs=50,TFT-Sparse,Fill rate,Naive,3,-0.00017479414037909388,0.00017521574854397138,,False
+walmart,5000,epochs=50,TFT-Sparse,Fill rate,Naive,3,-0.0005919529493312314,0.0005213885977117765,,False
+favorita,2000,"epochs=50,stride=4",TFT-Sparse,Fill rate,XGBoost,3,-0.0003896440092397979,0.0011929545201339255,,False
+walmart,2000,epochs=50,TFT-Sparse,Fill rate,XGBoost,3,-0.00032029325769315314,0.0006169342873552333,,False
+walmart,3000,epochs=50,TFT-Sparse,Fill rate,XGBoost,3,0.0007104362439745623,0.0001176079807735602,,False
+walmart,5000,epochs=50,TFT-Sparse,Fill rate,XGBoost,3,0.00028693754371933444,0.0005213885977117765,,False
+favorita,2000,"epochs=50,stride=4",TFT-Sparse,Fill rate,XGBoost-L1,3,-1.3851951148557973e-05,0.0011929545201339255,,False
+walmart,2000,epochs=50,TFT-Sparse,Fill rate,XGBoost-L1,3,0.0008181525900939161,0.0005412979103458438,,False
+walmart,3000,epochs=50,TFT-Sparse,Fill rate,XGBoost-L1,3,0.0011863084761956817,0.0003001731956553205,,False
+walmart,5000,epochs=50,TFT-Sparse,Fill rate,XGBoost-L1,3,0.0007941378298569335,0.0005213885977117765,,False
+favorita,2000,"epochs=50,stride=4",TFT-Sparse+CP,Fill rate,LSTM,3,-0.001481426737660274,0.0012314969264773435,,False
+walmart,2000,epochs=50,TFT-Sparse+CP,Fill rate,LSTM,3,0.002763075392694714,5.9047015306364716e-05,,False
+walmart,3000,epochs=50,TFT-Sparse+CP,Fill rate,LSTM,3,0.0019521137660534944,0.0009824479866902254,,False
+walmart,5000,epochs=50,TFT-Sparse+CP,Fill rate,LSTM,3,0.002358490890967476,0.0016294074426988687,,False
+favorita,2000,"epochs=50,stride=4",TFT-Sparse+CP,Fill rate,Naive,3,-0.003068496602970927,0.001172384678727528,,False
+walmart,2000,epochs=50,TFT-Sparse+CP,Fill rate,Naive,3,-0.000573271352823664,0.0006226391438005935,,False
+walmart,3000,epochs=50,TFT-Sparse+CP,Fill rate,Naive,3,-0.00017285359166030467,0.0001726579994641518,,False
+walmart,5000,epochs=50,TFT-Sparse+CP,Fill rate,Naive,3,-0.0005911646485262286,0.0005217489435109125,,False
+favorita,2000,"epochs=50,stride=4",TFT-Sparse+CP,Fill rate,TFT-Sparse,3,4.280100915843299e-05,4.789897344662423e-05,,False
+walmart,2000,epochs=50,TFT-Sparse+CP,Fill rate,TFT-Sparse,3,1.0080836521875192e-05,1.606642938374723e-05,,False
+walmart,3000,epochs=50,TFT-Sparse+CP,Fill rate,TFT-Sparse,3,1.9405487187892e-06,3.3611289755055834e-06,,False
+walmart,5000,epochs=50,TFT-Sparse+CP,Fill rate,TFT-Sparse,3,7.883008050028432e-07,7.179971235957999e-07,,False
+favorita,2000,"epochs=50,stride=4",TFT-Sparse+CP,Fill rate,XGBoost,3,-0.00034684300008136493,0.001172384678727528,,False
+walmart,2000,epochs=50,TFT-Sparse+CP,Fill rate,XGBoost,3,-0.00031021242117127795,0.0006163199100526821,,False
+walmart,3000,epochs=50,TFT-Sparse+CP,Fill rate,XGBoost,3,0.0007123767926933514,0.00011442465846195339,,False
+walmart,5000,epochs=50,TFT-Sparse+CP,Fill rate,XGBoost,3,0.0002877258445243373,0.0005217489435109125,,False
+favorita,2000,"epochs=50,stride=4",TFT-Sparse+CP,Fill rate,XGBoost-L1,3,2.8949058009875017e-05,0.001172384678727528,,False
+walmart,2000,epochs=50,TFT-Sparse+CP,Fill rate,XGBoost-L1,3,0.0008282334266157912,0.000546337774414278,,False
+walmart,3000,epochs=50,TFT-Sparse+CP,Fill rate,XGBoost-L1,3,0.001188249024914471,0.0002978776246330288,,False
+walmart,5000,epochs=50,TFT-Sparse+CP,Fill rate,XGBoost-L1,3,0.0007949261306619363,0.0005217489435109125,,False
+favorita,2000,"epochs=50,stride=4",TFT-Sparse,Inventory cost (cal),LSTM,3,2221.4082809625884,4128.631201592681,1/3,True
+walmart,2000,epochs=50,TFT-Sparse,Inventory cost (cal),LSTM,3,-97728.21525430947,23095.704481596506,3/3,True
+walmart,3000,epochs=50,TFT-Sparse,Inventory cost (cal),LSTM,3,-122262.00439955915,72110.5868129867,3/3,True
+walmart,5000,epochs=50,TFT-Sparse,Inventory cost (cal),LSTM,3,-154013.8585394967,140612.88039257526,3/3,True
+favorita,2000,"epochs=50,stride=4",TFT-Sparse,Inventory cost (cal),Naive,3,12379.930363188154,3034.7073291251095,0/3,True
+walmart,2000,epochs=50,TFT-Sparse,Inventory cost (cal),Naive,3,25455.711367109983,34741.64674044745,1/3,True
+walmart,3000,epochs=50,TFT-Sparse,Inventory cost (cal),Naive,3,2618.8466456374153,10070.333570345843,1/3,True
+walmart,5000,epochs=50,TFT-Sparse,Inventory cost (cal),Naive,3,49196.158310926134,47290.94158431895,1/3,True
+favorita,2000,"epochs=50,stride=4",TFT-Sparse,Inventory cost (cal),XGBoost,3,-358.3031009302892,3034.7073291251095,1/3,True
+walmart,2000,epochs=50,TFT-Sparse,Inventory cost (cal),XGBoost,3,13911.888495507263,33996.88818141208,1/3,True
+walmart,3000,epochs=50,TFT-Sparse,Inventory cost (cal),XGBoost,3,-60776.08623003424,6148.462125561372,3/3,True
+walmart,5000,epochs=50,TFT-Sparse,Inventory cost (cal),XGBoost,3,-8141.515435324206,47290.941584318956,1/3,True
+favorita,2000,"epochs=50,stride=4",TFT-Sparse,Inventory cost (cal),XGBoost-L1,3,2940.146240086067,3034.7073291251095,1/3,True
+walmart,2000,epochs=50,TFT-Sparse,Inventory cost (cal),XGBoost-L1,3,-39412.42026291745,28139.00976227614,3/3,True
+walmart,3000,epochs=50,TFT-Sparse,Inventory cost (cal),XGBoost-L1,3,-87005.80759775003,18933.860621149768,3/3,True
+walmart,5000,epochs=50,TFT-Sparse,Inventory cost (cal),XGBoost-L1,3,-44092.23990031161,47290.94158431895,3/3,True
+favorita,2000,"epochs=50,stride=4",TFT-Sparse+CP,Inventory cost (cal),LSTM,3,1873.2320119839471,4306.964508915258,1/3,True
+walmart,2000,epochs=50,TFT-Sparse+CP,Inventory cost (cal),LSTM,3,-97709.8115800427,23101.943093389043,3/3,True
+walmart,3000,epochs=50,TFT-Sparse+CP,Inventory cost (cal),LSTM,3,-124145.51849071658,68853.082525534,3/3,True
+walmart,5000,epochs=50,TFT-Sparse+CP,Inventory cost (cal),LSTM,3,-153985.57586234706,140581.9957664352,3/3,True
+favorita,2000,"epochs=50,stride=4",TFT-Sparse+CP,Inventory cost (cal),Naive,3,12031.754094209513,2924.8819703776803,0/3,True
+walmart,2000,epochs=50,TFT-Sparse+CP,Inventory cost (cal),Naive,3,25474.11504137675,34732.22427407747,1/3,True
+walmart,3000,epochs=50,TFT-Sparse+CP,Inventory cost (cal),Naive,3,735.3325544799833,8773.141379764362,1/3,True
+walmart,5000,epochs=50,TFT-Sparse+CP,Inventory cost (cal),Naive,3,49224.44098807577,47262.30311371719,1/3,True
+favorita,2000,"epochs=50,stride=4",TFT-Sparse+CP,Inventory cost (cal),TFT-Sparse,3,-348.176268978641,500.8915611338363,2/3,True
+walmart,2000,epochs=50,TFT-Sparse+CP,Inventory cost (cal),TFT-Sparse,3,18.403674266766757,31.876098875987925,0/3,True
+walmart,3000,epochs=50,TFT-Sparse+CP,Inventory cost (cal),TFT-Sparse,3,-1883.514091157432,3262.34210265659,1/3,True
+walmart,5000,epochs=50,TFT-Sparse+CP,Inventory cost (cal),TFT-Sparse,3,28.282677149632946,31.756989872029095,0/3,True
+favorita,2000,"epochs=50,stride=4",TFT-Sparse+CP,Inventory cost (cal),XGBoost,3,-706.4793699089302,2924.8819703776803,1/3,True
+walmart,2000,epochs=50,TFT-Sparse+CP,Inventory cost (cal),XGBoost,3,13930.29216977403,33995.166629573585,1/3,True
+walmart,3000,epochs=50,TFT-Sparse+CP,Inventory cost (cal),XGBoost,3,-62659.600321191676,4481.382010632502,3/3,True
+walmart,5000,epochs=50,TFT-Sparse+CP,Inventory cost (cal),XGBoost,3,-8113.232758174573,47262.3031137172,1/3,True
+favorita,2000,"epochs=50,stride=4",TFT-Sparse+CP,Inventory cost (cal),XGBoost-L1,3,2591.969971107426,2924.8819703776803,1/3,True
+walmart,2000,epochs=50,TFT-Sparse+CP,Inventory cost (cal),XGBoost-L1,3,-39394.01658865068,28130.863226189496,3/3,True
+walmart,3000,epochs=50,TFT-Sparse+CP,Inventory cost (cal),XGBoost-L1,3,-88889.32168890745,16884.047590070673,3/3,True
+walmart,5000,epochs=50,TFT-Sparse+CP,Inventory cost (cal),XGBoost-L1,3,-44063.957223161975,47262.30311371719,3/3,True
+favorita,2000,"epochs=50,stride=4",TFT-Sparse,Service level (cal),LSTM,3,-0.005351179722997849,0.0010896402966751042,,False
+walmart,2000,epochs=50,TFT-Sparse,Service level (cal),LSTM,3,0.005434887818149973,0.0026445008767213497,,False
+walmart,3000,epochs=50,TFT-Sparse,Service level (cal),LSTM,3,0.0031873389988410863,0.003107121087027017,,False
+walmart,5000,epochs=50,TFT-Sparse,Service level (cal),LSTM,3,0.003912296996819313,0.0024795670566844803,,False
+favorita,2000,"epochs=50,stride=4",TFT-Sparse,Service level (cal),Naive,3,-0.006979799638692885,0.0015207964507679642,,False
+walmart,2000,epochs=50,TFT-Sparse,Service level (cal),Naive,3,-0.0028538642839411508,0.0015888744607649588,,False
+walmart,3000,epochs=50,TFT-Sparse,Service level (cal),Naive,3,-0.0018108283004222292,0.001364238101078901,,False
+walmart,5000,epochs=50,TFT-Sparse,Service level (cal),Naive,3,-0.0025612879619466198,0.0015668513788417125,,False
+favorita,2000,"epochs=50,stride=4",TFT-Sparse,Service level (cal),XGBoost,3,-0.0036541303990804685,0.0015207964507679642,,False
+walmart,2000,epochs=50,TFT-Sparse,Service level (cal),XGBoost,3,-0.0005618441987560452,0.0013402829844387308,,False
+walmart,3000,epochs=50,TFT-Sparse,Service level (cal),XGBoost,3,0.00040655343329550525,0.0009436113236800735,,False
+walmart,5000,epochs=50,TFT-Sparse,Service level (cal),XGBoost,3,-0.0012102789270737786,0.0015668513788417125,,False
+favorita,2000,"epochs=50,stride=4",TFT-Sparse,Service level (cal),XGBoost-L1,3,-0.01186565938577766,0.0015207964507679642,,False
+walmart,2000,epochs=50,TFT-Sparse,Service level (cal),XGBoost-L1,3,-0.0012157531259504954,0.0016119191978773834,,False
+walmart,3000,epochs=50,TFT-Sparse,Service level (cal),XGBoost-L1,3,6.614087502502622e-07,0.0012608456189852424,,False
+walmart,5000,epochs=50,TFT-Sparse,Service level (cal),XGBoost-L1,3,-0.0006192124743168067,0.0015668513788417125,,False
+favorita,2000,"epochs=50,stride=4",TFT-Sparse+CP,Service level (cal),LSTM,3,-0.005214320906552938,0.0012567932226156663,,False
+walmart,2000,epochs=50,TFT-Sparse+CP,Service level (cal),LSTM,3,0.005528258499755949,0.00259101029388923,,False
+walmart,3000,epochs=50,TFT-Sparse+CP,Service level (cal),LSTM,3,0.0034057749970936024,0.0027318982090048095,,False
+walmart,5000,epochs=50,TFT-Sparse+CP,Service level (cal),LSTM,3,0.0039404430183791845,0.002525154641825648,,False
+favorita,2000,"epochs=50,stride=4",TFT-Sparse+CP,Service level (cal),Naive,3,-0.006842940822247974,0.0014811134021425084,,False
+walmart,2000,epochs=50,TFT-Sparse+CP,Service level (cal),Naive,3,-0.0027604936023351754,0.0014336814721444156,,False
+walmart,3000,epochs=50,TFT-Sparse+CP,Service level (cal),Naive,3,-0.0015923923021697133,0.001135422224551842,,False
+walmart,5000,epochs=50,TFT-Sparse+CP,Service level (cal),Naive,3,-0.002533141940386748,0.0016109755997922221,,False
+favorita,2000,"epochs=50,stride=4",TFT-Sparse+CP,Service level (cal),TFT-Sparse,3,0.00013685881644491063,0.00017093660695228016,,False
+walmart,2000,epochs=50,TFT-Sparse+CP,Service level (cal),TFT-Sparse,3,9.337068160597539e-05,0.0001617227644788862,,False
+walmart,3000,epochs=50,TFT-Sparse+CP,Service level (cal),TFT-Sparse,3,0.000218435998252516,0.0003783422471753842,,False
+walmart,5000,epochs=50,TFT-Sparse+CP,Service level (cal),TFT-Sparse,3,2.814602155987167e-05,4.8750339372626754e-05,,False
+favorita,2000,"epochs=50,stride=4",TFT-Sparse+CP,Service level (cal),XGBoost,3,-0.003517271582635558,0.0014811134021425084,,False
+walmart,2000,epochs=50,TFT-Sparse+CP,Service level (cal),XGBoost,3,-0.0004684735171500698,0.001275464483580394,,False
+walmart,3000,epochs=50,TFT-Sparse+CP,Service level (cal),XGBoost,3,0.0006249894315480212,0.0006785224975022906,,False
+walmart,5000,epochs=50,TFT-Sparse+CP,Service level (cal),XGBoost,3,-0.001182132905513907,0.0016109755997922221,,False
+favorita,2000,"epochs=50,stride=4",TFT-Sparse+CP,Service level (cal),XGBoost-L1,3,-0.01172880056933275,0.0014811134021425084,,False
+walmart,2000,epochs=50,TFT-Sparse+CP,Service level (cal),XGBoost-L1,3,-0.00112238244434452,0.0014766032881648923,,False
+walmart,3000,epochs=50,TFT-Sparse+CP,Service level (cal),XGBoost-L1,3,0.00021909740700276625,0.0010284088600056008,,False
+walmart,5000,epochs=50,TFT-Sparse+CP,Service level (cal),XGBoost-L1,3,-0.000591066452756935,0.0016109755997922221,,False
+favorita,2000,"epochs=50,stride=4",TFT-Sparse,Fill rate (cal),LSTM,3,-0.0011729234908524067,0.0010923854840329018,,False
+walmart,2000,epochs=50,TFT-Sparse,Fill rate (cal),LSTM,3,0.0018439598674460471,0.0005158293793847709,,False
+walmart,3000,epochs=50,TFT-Sparse,Fill rate (cal),LSTM,3,0.0014699175812863767,0.0011238136010549404,,False
+walmart,5000,epochs=50,TFT-Sparse,Fill rate (cal),LSTM,3,0.0017239439147168634,0.001731459760756337,,False
+favorita,2000,"epochs=50,stride=4",TFT-Sparse,Fill rate (cal),Naive,3,-0.0033594741141774374,0.0006280156139180602,,False
+walmart,2000,epochs=50,TFT-Sparse,Fill rate (cal),Naive,3,-0.0006548899798246577,0.0006937247503935145,,False
+walmart,3000,epochs=50,TFT-Sparse,Fill rate (cal),Naive,3,-0.00018977317687348302,0.00015199173877176284,,False
+walmart,5000,epochs=50,TFT-Sparse,Fill rate (cal),Naive,3,-0.0007479924554450642,0.0006077802928682907,,False
+favorita,2000,"epochs=50,stride=4",TFT-Sparse,Fill rate (cal),XGBoost,3,-0.00047808385417132576,0.0006280156139180602,,False
+walmart,2000,epochs=50,TFT-Sparse,Fill rate (cal),XGBoost,3,-0.0003855178389263377,0.0006849302413241324,,False
+walmart,3000,epochs=50,TFT-Sparse,Fill rate (cal),XGBoost,3,0.0007014397038378842,9.126859932177273e-05,,False
+walmart,5000,epochs=50,TFT-Sparse,Fill rate (cal),XGBoost,3,-2.548160668188378e-05,0.0006077802928682909,,False
+favorita,2000,"epochs=50,stride=4",TFT-Sparse,Fill rate (cal),XGBoost-L1,3,-0.0015480967263696483,0.0006280156139180602,,False
+walmart,2000,epochs=50,TFT-Sparse,Fill rate (cal),XGBoost-L1,3,0.0007119902302826775,0.0005892144680707755,,False
+walmart,3000,epochs=50,TFT-Sparse,Fill rate (cal),XGBoost-L1,3,0.0010897049411583426,0.00026338696803373965,,False
+walmart,5000,epochs=50,TFT-Sparse,Fill rate (cal),XGBoost-L1,3,0.0004570599439562099,0.0006077802928682907,,False
+favorita,2000,"epochs=50,stride=4",TFT-Sparse+CP,Fill rate (cal),LSTM,3,-0.0011055862621031458,0.001123316404397389,,False
+walmart,2000,epochs=50,TFT-Sparse+CP,Fill rate (cal),LSTM,3,0.001844644300553459,0.0005157698648109838,,False
+walmart,3000,epochs=50,TFT-Sparse+CP,Fill rate (cal),LSTM,3,0.0014972688614491487,0.0010764786517764534,,False
+walmart,5000,epochs=50,TFT-Sparse+CP,Fill rate (cal),LSTM,3,0.0017262026311610408,0.0017351088374641778,,False
+favorita,2000,"epochs=50,stride=4",TFT-Sparse+CP,Fill rate (cal),Naive,3,-0.0032921368854281763,0.0006072977709755331,,False
+walmart,2000,epochs=50,TFT-Sparse+CP,Fill rate (cal),Naive,3,-0.0006542055467172458,0.0006940440498685871,,False
+walmart,3000,epochs=50,TFT-Sparse+CP,Fill rate (cal),Naive,3,-0.00016242189671071086,0.00012927922644984292,,False
+walmart,5000,epochs=50,TFT-Sparse+CP,Fill rate (cal),Naive,3,-0.0007457337390008867,0.0006113886682287492,,False
+favorita,2000,"epochs=50,stride=4",TFT-Sparse+CP,Fill rate (cal),TFT-Sparse,3,6.733722874926092e-05,9.473002497957342e-05,,False
+walmart,2000,epochs=50,TFT-Sparse+CP,Fill rate (cal),TFT-Sparse,3,6.844331074118415e-07,1.1854729164195563e-06,,False
+walmart,3000,epochs=50,TFT-Sparse+CP,Fill rate (cal),TFT-Sparse,3,2.7351280162772145e-05,4.7373806893972105e-05,,False
+walmart,5000,epochs=50,TFT-Sparse+CP,Fill rate (cal),TFT-Sparse,3,2.258716444177485e-06,3.656898129963832e-06,,False
+favorita,2000,"epochs=50,stride=4",TFT-Sparse+CP,Fill rate (cal),XGBoost,3,-0.00041074662542206486,0.0006072977709755331,,False
+walmart,2000,epochs=50,TFT-Sparse+CP,Fill rate (cal),XGBoost,3,-0.00038483340581892583,0.0006849406740893402,,False
+walmart,3000,epochs=50,TFT-Sparse+CP,Fill rate (cal),XGBoost,3,0.0007287909840006564,6.0001769934125214e-05,,False
+walmart,5000,epochs=50,TFT-Sparse+CP,Fill rate (cal),XGBoost,3,-2.3222890237706295e-05,0.0006113886682287492,,False
+favorita,2000,"epochs=50,stride=4",TFT-Sparse+CP,Fill rate (cal),XGBoost-L1,3,-0.0014807594976203875,0.0006072977709755331,,False
+walmart,2000,epochs=50,TFT-Sparse+CP,Fill rate (cal),XGBoost-L1,3,0.0007126746633900893,0.0005894969785770855,,False
+walmart,3000,epochs=50,TFT-Sparse+CP,Fill rate (cal),XGBoost-L1,3,0.0011170562213211148,0.00023152201888533103,,False
+walmart,5000,epochs=50,TFT-Sparse+CP,Fill rate (cal),XGBoost-L1,3,0.0004593186604003874,0.0006113886682287492,,False
